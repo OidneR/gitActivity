@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60290AB12670CDB400A1C980 /* AccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60290AB02670CDB400A1C980 /* AccessControl.swift */; };
+		603EA1C82670CB2100EF69BD /* Fuel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603EA1C72670CB2100EF69BD /* Fuel.storyboard */; };
+		603EA1CA2670CB3B00EF69BD /* FuelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603EA1C92670CB3B00EF69BD /* FuelViewController.swift */; };
 		B896CF2B2670C65A00CE515E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896CF2A2670C65A00CE515E /* AppDelegate.swift */; };
 		B896CF2D2670C65A00CE515E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896CF2C2670C65A00CE515E /* SceneDelegate.swift */; };
 		B896CF2F2670C65A00CE515E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896CF2E2670C65A00CE515E /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60290AB02670CDB400A1C980 /* AccessControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessControl.swift; sourceTree = "<group>"; };
+		603EA1C72670CB2100EF69BD /* Fuel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Fuel.storyboard; path = "../../../../Downloads/spaceship-git-main/spaceship-gitmission/spaceship-gitmission/Fuel/Fuel.storyboard"; sourceTree = "<group>"; };
+		603EA1C92670CB3B00EF69BD /* FuelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FuelViewController.swift; path = "../../../../Downloads/spaceship-git-main/spaceship-gitmission/spaceship-gitmission/Fuel/FuelViewController.swift"; sourceTree = "<group>"; };
 		B896CF272670C65A00CE515E /* gitActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B896CF2A2670C65A00CE515E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B896CF2C2670C65A00CE515E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60290AAB2670CD3100A1C980 /* Access */ = {
+			isa = PBXGroup;
+			children = (
+				60290AB02670CDB400A1C980 /* AccessControl.swift */,
+			);
+			name = Access;
+			path = "../../../Downloads/spaceship-git-main/spaceship-gitmission/spaceship-gitmission/Access";
+			sourceTree = "<group>";
+		};
+		603EA1C42670C9EA00EF69BD /* Fuel */ = {
+			isa = PBXGroup;
+			children = (
+				603EA1C72670CB2100EF69BD /* Fuel.storyboard */,
+				603EA1C92670CB3B00EF69BD /* FuelViewController.swift */,
+			);
+			path = Fuel;
+			sourceTree = "<group>";
+		};
 		B896CF1E2670C65A00CE515E = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +82,8 @@
 		B896CF292670C65A00CE515E /* gitActivity */ = {
 			isa = PBXGroup;
 			children = (
+				60290AAB2670CD3100A1C980 /* Access */,
+				603EA1C42670C9EA00EF69BD /* Fuel */,
 				B896CF2A2670C65A00CE515E /* AppDelegate.swift */,
 				B896CF2C2670C65A00CE515E /* SceneDelegate.swift */,
 				B896CF2E2670C65A00CE515E /* ViewController.swift */,
@@ -129,6 +155,7 @@
 			files = (
 				B896CF3A2670C65C00CE515E /* LaunchScreen.storyboard in Resources */,
 				B896CF372670C65C00CE515E /* Assets.xcassets in Resources */,
+				603EA1C82670CB2100EF69BD /* Fuel.storyboard in Resources */,
 				B896CF322670C65A00CE515E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +171,8 @@
 				B896CF352670C65A00CE515E /* gitActivity.xcdatamodeld in Sources */,
 				B896CF2B2670C65A00CE515E /* AppDelegate.swift in Sources */,
 				B896CF2D2670C65A00CE515E /* SceneDelegate.swift in Sources */,
+				603EA1CA2670CB3B00EF69BD /* FuelViewController.swift in Sources */,
+				60290AB12670CDB400A1C980 /* AccessControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

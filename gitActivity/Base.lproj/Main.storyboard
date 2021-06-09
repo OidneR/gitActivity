@@ -80,6 +80,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="chevron.forward" catalog="system"/>
+                                <connections>
+                                    <action selector="navigateToCockpit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ol9-qE-HBd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fp-43-ZBB">
                                 <rect key="frame" x="219" y="563" width="58" height="22"/>

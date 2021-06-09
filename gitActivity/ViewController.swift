@@ -15,5 +15,11 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func navigateToCockpit(_ sender: Any) {
+        let cockpitStoryboard = UIStoryboard(name: "Cockpit", bundle: nil)
+        let cockpit = cockpitStoryboard.instantiateViewController(withIdentifier: "cockpitStoryboard") as! CockpitViewController
+        
+        present(cockpit, animated: true, completion: nil)
+    }
 }
 

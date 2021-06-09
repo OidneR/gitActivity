@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D6FFA8C2670CD82009C1438 /* CockpitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6FFA8B2670CD82009C1438 /* CockpitViewController.swift */; };
+		2D6FFA8F2670CD9F009C1438 /* Cockpit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6FFA8E2670CD9F009C1438 /* Cockpit.storyboard */; };
 		B896CF2B2670C65A00CE515E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896CF2A2670C65A00CE515E /* AppDelegate.swift */; };
 		B896CF2D2670C65A00CE515E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896CF2C2670C65A00CE515E /* SceneDelegate.swift */; };
 		B896CF2F2670C65A00CE515E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896CF2E2670C65A00CE515E /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D6FFA8B2670CD82009C1438 /* CockpitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitViewController.swift; sourceTree = "<group>"; };
+		2D6FFA8E2670CD9F009C1438 /* Cockpit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cockpit.storyboard; sourceTree = "<group>"; };
 		B896CF272670C65A00CE515E /* gitActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B896CF2A2670C65A00CE515E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B896CF2C2670C65A00CE515E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D6FFA8D2670CD89009C1438 /* Cockpit */ = {
+			isa = PBXGroup;
+			children = (
+				2D6FFA8B2670CD82009C1438 /* CockpitViewController.swift */,
+				2D6FFA8E2670CD9F009C1438 /* Cockpit.storyboard */,
+			);
+			path = Cockpit;
+			sourceTree = "<group>";
+		};
 		B896CF1E2670C65A00CE515E = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 		B896CF292670C65A00CE515E /* gitActivity */ = {
 			isa = PBXGroup;
 			children = (
+				2D6FFA8D2670CD89009C1438 /* Cockpit */,
 				B896CF2A2670C65A00CE515E /* AppDelegate.swift */,
 				B896CF2C2670C65A00CE515E /* SceneDelegate.swift */,
 				B896CF2E2670C65A00CE515E /* ViewController.swift */,
@@ -129,6 +143,7 @@
 			files = (
 				B896CF3A2670C65C00CE515E /* LaunchScreen.storyboard in Resources */,
 				B896CF372670C65C00CE515E /* Assets.xcassets in Resources */,
+				2D6FFA8F2670CD9F009C1438 /* Cockpit.storyboard in Resources */,
 				B896CF322670C65A00CE515E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +158,7 @@
 				B896CF2F2670C65A00CE515E /* ViewController.swift in Sources */,
 				B896CF352670C65A00CE515E /* gitActivity.xcdatamodeld in Sources */,
 				B896CF2B2670C65A00CE515E /* AppDelegate.swift in Sources */,
+				2D6FFA8C2670CD82009C1438 /* CockpitViewController.swift in Sources */,
 				B896CF2D2670C65A00CE515E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

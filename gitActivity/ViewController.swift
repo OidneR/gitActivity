@@ -21,6 +21,13 @@ class ViewController: UIViewController {
         self.present(engine, animated: true)
     }
 
+    @IBAction func navigateToCockpit(_ sender: Any) {
+        let cockpitStoryboard = UIStoryboard(name: "Cockpit", bundle: nil)
+        let cockpit = cockpitStoryboard.instantiateViewController(withIdentifier: "cockpitStoryboard") as! CockpitViewController
+        
+        present(cockpit, animated: true, completion: nil)
+    }
+
 //    @IBAction func navigateToCockpit(_ sender: UIButton) {
 //        let cockpitStoryboard = UIStoryboard(name: "Cockpit", bundle: nil)
 //        let cockpit = cockpitStoryboard.instantiateViewController(withIdentifier: "cockpitstoryboard") as! CockpitViewController
@@ -53,5 +60,6 @@ class ViewController: UIViewController {
         //navigate to the electrical
         self.present(electrical, animated: true)
         //
+
     }
 }

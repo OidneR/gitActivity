@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D6FFA8C2670CD82009C1438 /* CockpitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6FFA8B2670CD82009C1438 /* CockpitViewController.swift */; };
+		2D6FFA8F2670CD9F009C1438 /* Cockpit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6FFA8E2670CD9F009C1438 /* Cockpit.storyboard */; };
 		7C7E96DC2670D25B008379D5 /* AccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7E96DB2670D25B008379D5 /* AccessControl.swift */; };
 		7C7E96DF2670D296008379D5 /* Electrical.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7E96DE2670D296008379D5 /* Electrical.storyboard */; };
 		7C7E96E12670D2BB008379D5 /* ElectricalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7E96E02670D2BB008379D5 /* ElectricalViewController.swift */; };
@@ -22,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+
+		2D6FFA8B2670CD82009C1438 /* CockpitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitViewController.swift; sourceTree = "<group>"; };
+		2D6FFA8E2670CD9F009C1438 /* Cockpit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cockpit.storyboard; sourceTree = "<group>"; };
+
 		7C7E96DB2670D25B008379D5 /* AccessControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControl.swift; sourceTree = "<group>"; };
 		7C7E96DE2670D296008379D5 /* Electrical.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Electrical.storyboard; sourceTree = "<group>"; };
 		7C7E96E02670D2BB008379D5 /* ElectricalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricalViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+
+		2D6FFA8D2670CD89009C1438 /* Cockpit */ = {
+			isa = PBXGroup;
+			children = (
+				2D6FFA8B2670CD82009C1438 /* CockpitViewController.swift */,
+				2D6FFA8E2670CD9F009C1438 /* Cockpit.storyboard */,
+			);
+			path = Cockpit;
 		7C7E96DA2670D235008379D5 /* Access */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,7 +101,11 @@
 		B896CF292670C65A00CE515E /* gitActivity */ = {
 			isa = PBXGroup;
 			children = (
+
+				2D6FFA8D2670CD89009C1438 /* Cockpit */,
+
 				B896CF412670CDF800CE515E /* Engine */,
+
 				B896CF2A2670C65A00CE515E /* AppDelegate.swift */,
 				B896CF2C2670C65A00CE515E /* SceneDelegate.swift */,
 				B896CF2E2670C65A00CE515E /* ViewController.swift */,
@@ -169,6 +187,7 @@
 				7C7E96DF2670D296008379D5 /* Electrical.storyboard in Resources */,
 				B896CF3A2670C65C00CE515E /* LaunchScreen.storyboard in Resources */,
 				B896CF372670C65C00CE515E /* Assets.xcassets in Resources */,
+				2D6FFA8F2670CD9F009C1438 /* Cockpit.storyboard in Resources */,
 				B896CF432670CF8B00CE515E /* Engine.storyboard in Resources */,
 				B896CF322670C65A00CE515E /* Main.storyboard in Resources */,
 			);
@@ -186,6 +205,7 @@
 				7C7E96E12670D2BB008379D5 /* ElectricalViewController.swift in Sources */,
 				7C7E96DC2670D25B008379D5 /* AccessControl.swift in Sources */,
 				B896CF2B2670C65A00CE515E /* AppDelegate.swift in Sources */,
+				2D6FFA8C2670CD82009C1438 /* CockpitViewController.swift in Sources */,
 				B896CF2D2670C65A00CE515E /* SceneDelegate.swift in Sources */,
 				B896CF452670CF9900CE515E /* EngineViewController.swift in Sources */,
 			);

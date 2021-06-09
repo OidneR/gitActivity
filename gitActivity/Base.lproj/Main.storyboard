@@ -113,21 +113,6 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="lrk-BL-Pup">
-            <objects>
-                <viewController id="ros-xG-JWc" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="1Rk-po-CUm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Tvh-qd-0X5"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dwp-li-4bz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="687" y="90"/>
-        </scene>
     </scenes>
     <resources>
         <image name="chevron.forward" catalog="system" width="96" height="128"/>

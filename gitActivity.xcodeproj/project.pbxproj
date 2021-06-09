@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60290AB42670CFFE00A1C980 /* AccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60290AB32670CFFE00A1C980 /* AccessControl.swift */; };
+		60290AB82670D02A00A1C980 /* FuelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60290AB62670D02A00A1C980 /* FuelViewController.swift */; };
+		60290AB92670D02A00A1C980 /* Fuel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60290AB72670D02A00A1C980 /* Fuel.storyboard */; };
 		B896CF2B2670C65A00CE515E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896CF2A2670C65A00CE515E /* AppDelegate.swift */; };
 		B896CF2D2670C65A00CE515E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896CF2C2670C65A00CE515E /* SceneDelegate.swift */; };
 		B896CF2F2670C65A00CE515E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896CF2E2670C65A00CE515E /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60290AB32670CFFE00A1C980 /* AccessControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessControl.swift; sourceTree = "<group>"; };
+		60290AB62670D02A00A1C980 /* FuelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelViewController.swift; sourceTree = "<group>"; };
+		60290AB72670D02A00A1C980 /* Fuel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Fuel.storyboard; sourceTree = "<group>"; };
 		B896CF272670C65A00CE515E /* gitActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B896CF2A2670C65A00CE515E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B896CF2C2670C65A00CE515E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60290AB22670CFFE00A1C980 /* Access */ = {
+			isa = PBXGroup;
+			children = (
+				60290AB32670CFFE00A1C980 /* AccessControl.swift */,
+			);
+			name = Access;
+			path = "../../../Downloads/spaceship-git-main/spaceship-gitmission/spaceship-gitmission/Access";
+			sourceTree = "<group>";
+		};
+		60290AB52670D02A00A1C980 /* Fuel */ = {
+			isa = PBXGroup;
+			children = (
+				60290AB62670D02A00A1C980 /* FuelViewController.swift */,
+				60290AB72670D02A00A1C980 /* Fuel.storyboard */,
+			);
+			name = Fuel;
+			path = "../../../Downloads/spaceship-git-main/spaceship-gitmission/spaceship-gitmission/Fuel";
+			sourceTree = "<group>";
+		};
 		B896CF1E2670C65A00CE515E = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +83,8 @@
 		B896CF292670C65A00CE515E /* gitActivity */ = {
 			isa = PBXGroup;
 			children = (
+				60290AB52670D02A00A1C980 /* Fuel */,
+				60290AB22670CFFE00A1C980 /* Access */,
 				B896CF2A2670C65A00CE515E /* AppDelegate.swift */,
 				B896CF2C2670C65A00CE515E /* SceneDelegate.swift */,
 				B896CF2E2670C65A00CE515E /* ViewController.swift */,
@@ -129,6 +156,7 @@
 			files = (
 				B896CF3A2670C65C00CE515E /* LaunchScreen.storyboard in Resources */,
 				B896CF372670C65C00CE515E /* Assets.xcassets in Resources */,
+				60290AB92670D02A00A1C980 /* Fuel.storyboard in Resources */,
 				B896CF322670C65A00CE515E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +170,8 @@
 			files = (
 				B896CF2F2670C65A00CE515E /* ViewController.swift in Sources */,
 				B896CF352670C65A00CE515E /* gitActivity.xcdatamodeld in Sources */,
+				60290AB82670D02A00A1C980 /* FuelViewController.swift in Sources */,
+				60290AB42670CFFE00A1C980 /* AccessControl.swift in Sources */,
 				B896CF2B2670C65A00CE515E /* AppDelegate.swift in Sources */,
 				B896CF2D2670C65A00CE515E /* SceneDelegate.swift in Sources */,
 			);

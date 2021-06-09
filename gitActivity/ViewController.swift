@@ -13,6 +13,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    @IBAction func navigateToEngine(_ sender: UIButton) {
+        let engineStoryboard = UIStoryboard(name: "Engine", bundle: nil)
+        let engine = engineStoryboard.instantiateViewController(withIdentifier: "engineStoryboard") as! EngineViewController
+        engine.source = .control
+        self.present(engine, animated: true)
+    }
 
 
 }
